@@ -1,0 +1,63 @@
+@media only screen and (max-width: 645px){
+body{
+  background-color: #173D7A;
+  font-family: 'Nunito', sans-serif;
+}
+
+#alumno{
+  width: 300px;
+  height: 50px;
+  background-color: #E63888;
+  margin: 0 auto;
+  margin-top: 200px;
+  text-align: center;
+  border-radius: 35px;
+  line-height: 53px;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+#alumno:hover{
+  background-color: white;
+  color: #E63888;
+  cursor: pointer;
+  outline: none;
+}
+
+#profe{
+  margin-top: 50px;
+  width: 300px;
+  height: 50px;
+  background-color: #E63888;
+  margin: 0 auto;
+  margin-top: 40px;
+  text-align: center;
+  border-radius: 35px;
+  line-height: 53px;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+#profe:hover{
+  background-color: white;
+  color: #E63888;
+  cursor: pointer;
+  outline: none;
+}
+
+h1{
+  color: white;
+  margin-top: 160px;
+  text-align: center;
+  font-size: 33px;
+}
+
+a{
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+}
+
+
+
+}

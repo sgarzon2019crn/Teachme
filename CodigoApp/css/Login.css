@@ -1,0 +1,178 @@
+@media only screen and (min-width: 645px){
+  body{
+    background-position: right;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+  }
+
+  #fondo{
+    float: right;
+    height: 940px;
+    position: relative;
+  }
+
+  #register{
+    height: 50px;
+    width: 165px;
+    background-color: #E63888;
+    border-radius: 25px;
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
+    margin: 50px;
+    font-size: 25px;
+    right: 20px;
+  }
+
+  a{
+    text-decoration: none;
+    color: white;
+  }
+
+  #logotm{
+    height: 250px;
+    margin-left: 250px;
+    margin-top: 10px;
+  }
+
+  form{
+    margin-top: 50px;
+  }
+
+  h1{
+    font-size: 125px;
+    margin-left: 250px;
+    #E63888
+  }
+
+  .box{
+   margin: 0 auto;
+   width: 600px;
+   height: 80px;
+   border: 1px solid grey;
+   margin-top: 20px;
+   background-color: transparent;
+   border-radius: 50px;
+   background-color: white;
+   text-indent: 20px;
+   font-size: 20px;
+   outline: none;
+   display: block;
+   margin-left: 250px;
+ }
+
+  #sessio{
+   text-decoration: none;
+   color: white;
+   background-color: #E63888;
+   height: 60px;
+   width: 250px;
+   text-align: center;
+   line-height: 58px;
+   border-radius: 30px;
+   font-size: 23px;
+   margin-left: 250px;
+   margin-top: 30px;
+ }
+
+ h3{
+ font-size: 20px;
+ margin-left: 625px;
+ color: #5A9DD0;
+ margin-top: 0px;
+}
+
+
+
+
+}
+
+
+
+
+@media only screen and (max-width: 645px){
+
+  body{
+    background-image: url("../img/fondo.png");
+    background-size: cover;
+    font-family: 'Nunito', sans-serif;
+  }
+
+  #fondo{
+    visibility: hidden;
+    height: 0;
+  }
+
+  #logotm{
+    display: none;
+    height: 0;
+  }
+
+  h1{
+    display: none;
+  }
+
+  #register{
+    height: 30px;
+    width: 125px;
+    background-color: #E63888;
+    border-radius: 25px;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 60%;
+  }
+
+  form{
+    margin-top: 450px;
+    margin-left: 20px;
+  }
+
+   .box{
+    margin: 0 auto;
+    width: 200px;
+    height: 30px;
+    border: 1px solid grey;
+    margin-bottom: 20px;
+    background-color: transparent;
+    border-radius: 30px;
+    background-color: white;
+    text-indent: 20px;
+    font-size: 20px;
+    float: left;
+    outline: none;
+  }
+
+  input{
+    color: #222222;
+  }
+
+  #sessio{
+    text-decoration: none;
+    color: white;
+    background-color: #E63888;
+    height: 25px;
+    width: 100px;
+    text-align: center;
+    line-height: 25px;
+    margin-right: 50px;
+    float: right;
+    border-radius: 25px;
+    margin-top: 30px;
+  }
+
+  a{
+    text-decoration: none;
+    color: white;
+  }
+
+  h3{
+  clear: both;
+  font-size: 12px;
+  margin-left: 25px;
+  color: #5A9DD0;
+  cursor: pointer;
+}
+
+}

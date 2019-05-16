@@ -1,0 +1,96 @@
+@media only screen and (max-width: 645px){
+
+body{
+  font-family: 'Nunito', sans-serif;
+  background-color: #173D7A;
+  font-size: 20px;
+  margin:0;
+  padding: 0;
+}
+
+#toggle{
+  visibility: hidden;
+  opacity: 0;
+  position: relative;
+  z-index: -1;
+  display: flex;
+}
+
+#toggle:checked ~ dialog {
+  display: block;
+}
+
+#register{
+  height: 40px;
+  width: 150px;
+  line-height: 40px;
+  border-radius: 20px;
+  text-indent: 30px;
+  font-size: 15px;
+  margin: 0 auto;
+  margin-top: 570px;
+  background-color: #E63888;
+  cursor: pointer;
+  outline: none;
+  color: white;
+  display: flex;
+}
+
+#register:hover{
+  background-color: white;
+  color: #E63888;
+}
+
+p{
+  font-size: 17px;
+}
+
+@keyframes appear {
+  0%{
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+}
+
+dialog{
+  animation: appear 350ms ease-in 1;
+  width: 300px;
+  border: none;
+  margin-top: -600px;
+}
+
+ .accept{
+  height: 30px;
+  width: 115px;
+  line-height: 30px;
+  border-radius: 20px;
+  background-color: #E63888;
+  text-align: center;
+  display: inline-block;
+  color: white;
+  font-size: 15px;
+  float: right;
+}
+
+#cancela{
+  height: 30px;
+  width: 115px;
+  line-height: 30px;
+  background-color: #E63888;
+  text-align: center;
+  border-radius: 20px;
+  float: left;
+  display: inline-block;
+  font-size: 15px;
+  color: white;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+
+
+
+}

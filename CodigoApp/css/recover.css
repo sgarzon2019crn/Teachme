@@ -1,0 +1,51 @@
+@media only screen and (max-width: 645px){
+
+  body{
+    background-color: #173D7A;
+    font-family: 'Nunito', sans-serif;
+  }
+
+  h1{
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .box{
+    width: 250px;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid #E63888;
+    margin-left: 15%;
+    background-color: transparent;
+    font-size: 15px;
+    color: white;
+    margin-top: 50px;
+    outline: none;
+    text-indent: 5px;
+  }
+
+  #recover{
+    height: 30px;
+    width: 125px;
+    background-color: #E63888;
+    border-radius: 25px;
+    text-align: center;
+    line-height: 30px;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+
+  a{
+    text-decoration: none;
+    color: white;
+  }
+
+  p{
+    color: white;
+    float: right;
+  }
+
+
+}

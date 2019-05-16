@@ -1,0 +1,160 @@
+@media only screen and (max-width: 645px){
+
+  body{
+    background-color: #173D7A;
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  h1{
+    color: white;
+    text-align: center;
+    margin-top: 60px;
+  }
+
+  form{
+    margin-top: 50px;
+  }
+
+  .box{
+    height: 45px;
+    width: 250px;
+    background-color: ;
+    margin: 0 auto;
+    margin-top: 25px;
+    font-size: 15px;
+    color: white;
+    display: block;
+    outline: none;
+    text-indent: 1px;
+    border: none;
+    border-bottom: 2px solid #E63888;
+    background: transparent;
+  }
+
+  ::-webkit-input-placeholder{
+    color: darkgrey;
+  }
+
+  #register{
+    height: 40px;
+    width: 150px;
+    background-color: #E63888;
+    border-radius: 20px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    margin: 0 auto;
+    margin-top: 60px;
+    text-align: center;
+  }
+
+  #register:hover{
+    background-color: white;
+    color: #E63888;
+  }
+
+
+  /* BOTON DE REGISTRO*/
+  #toggle{
+    visibility: hidden;
+    opacity: 0;
+    position: relative;
+    z-index: -1;
+    display: flex;
+  }
+
+  #toggle:checked ~ dialog {
+    display: block;
+  }
+
+  #register{
+    height: 40px;
+    width: 150px;
+    line-height: 40px;
+    border-radius: 20px;
+    text-indent: 30px;
+    font-size: 15px;
+    margin: 0 auto;
+    margin-top: 40px;
+    background-color: #E63888;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    display: flex;
+  }
+
+  #register:hover{
+    background-color: white;
+    color: #E63888;
+  }
+
+  p{
+    font-size: 17px;
+  }
+
+  @keyframes appear {
+    0%{
+      opacity: 0;
+      transform: translateY(-5px);
+    }
+  }
+
+  dialog{
+    animation: appear 350ms ease-in 1;
+    width: 300px;
+    border: none;
+    margin-top: -550px;
+  }
+
+   .accept{
+    height: 30px;
+    width: 115px;
+    line-height: 30px;
+    border-radius: 20px;
+    background-color: #E63888;
+    text-align: center;
+    display: inline-block;
+    color: white;
+    font-size: 15px;
+    float: right;
+  }
+
+  .accept:hover{
+    color: #E63888;
+    background-color: white;
+    border: solid 1px #E63888;
+  }
+
+  #cancela{
+    height: 30px;
+    width: 115px;
+    line-height: 30px;
+    background-color: #E63888;
+    text-align: center;
+    border-radius: 20px;
+    float: left;
+    display: inline-block;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+  }
+
+  #cancela:hover{
+    color: #E63888;
+    background-color: white;
+    border: solid 1px #E63888;
+  }
+
+  a{
+    text-decoration: none;
+    color: white;
+  }
+
+
+
+}
